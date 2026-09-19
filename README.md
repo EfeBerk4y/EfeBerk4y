@@ -6,16 +6,12 @@
   alt="Efe Berkay Alan"
 />
 
-<br>
-
-<img
-  src="https://loremflickr.com/1200/320/wolf,nature"
-  width="100%"
-  alt="Wolf"
-/>
-
 <br><br>
 
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=1000&color=00B3B3&center=true&vCenter=true&width=800&lines=Building+modern+web+experiences.;Turning+ideas+into+digital+products.;Writing+clean%2C+scalable+and+useful+code.;Learning.+Building.+Improving.;One+project+at+a+time."
+  alt="Typing Animation"
+/>
 
 <br><br>
 
