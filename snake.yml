@@ -1,0 +1,35 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: EfeBerk4y
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%2300B3B3&color_dots=%230E4429,%23006666,%23009999,%2300CCCC,%2366FFFF
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300E5E5
+
+      - name: Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
