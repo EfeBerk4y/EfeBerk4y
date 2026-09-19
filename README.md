@@ -1,248 +1,267 @@
 <div align="center">
 
-# Efe Berkay Alan
+<!-- HERO -->
 
-### `Web Developer` · `Full-Stack Developer` · `Digital Builder`
-
-**I turn ideas into digital products.**
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,18&text=Efe%20Berkay%20Alan&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Web%20Developer&descAlignY=58&descSize=18" width="100%" />
 
 <a href="https://efeberkayalan.com">
-  <img src="https://img.shields.io/badge/Website-efeberkayalan.com-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Building+modern+web+experiences.;Turning+ideas+into+digital+products.;Writing+clean%2C+scalable+and+useful+code.;Always+learning.+Always+building." alt="Typing SVG" />
 </a>
-<a href="https://github.com/EfeBerk4y">
-  <img src="https://img.shields.io/badge/GitHub-EfeBerk4y-000000?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/efe-berkay-alan-96a607279/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-000000?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
 
 <br>
 
+<a href="https://efeberkayalan.com">
+  <img src="https://img.shields.io/badge/Portfolio-efeberkayalan.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/efe-berkay-alan-96a607279/">
+  <img src="https://img.shields.io/badge/LinkedIn-Efe%20Berkay%20Alan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:info@efeberkayalan.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=EfeBerk4y&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" />
+
+</div>
+
 ---
 
-## `01` — WHO AM I?
+## 👨‍💻 About Me
 
-I'm **Efe Berkay Alan**, a Web Developer from **Samsun, Türkiye**.
+Hi, I'm **Efe Berkay Alan** — a Software & Web Developer based in **Samsun, Türkiye**.
 
-I started by building corporate websites and gradually moved deeper into **backend systems, databases, interactive interfaces and full-stack applications**.
+I enjoy turning ideas into real digital products, from the first concept and interface design to backend development, databases and deployment.
 
-Today, I'm interested in more than simply making a website look good.
-
-I want to understand the whole product:
+My main focus is building **modern, responsive and functional web experiences** for real-world use cases.
 
 ```text
-                    IDEA
-                      │
-                      ▼
-              ┌───────────────┐
-              │    DESIGN     │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │   FRONTEND    │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │    BACKEND    │
-              └───────┬───────┘
-                      │
-                      ▼
-              ┌───────────────┐
-              │   DATABASE    │
-              └───────┬───────┘
-                      │
-                      ▼
-                    PRODUCT
+IDEA
+  ↓
+DESIGN
+  ↓
+FRONTEND
+  ↓
+BACKEND
+  ↓
+DATABASE
+  ↓
+DEPLOYMENT
+  ↓
+PRODUCT
 ```
 
-I enjoy taking something from **"we should build this"** to **"it's actually working."**
+I care about more than making something work.
+
+I care about making it:
+
+**Useful · Fast · Maintainable · Responsive · Scalable**
 
 ---
 
-## `02` — WHAT I BUILD
+## 🧠 What I Do
 
-### 🌐 Web Applications
+<table>
+<tr>
+<td width="50%">
 
-Custom websites and web applications built around real business needs.
+### 🌐 Web Development
 
-### ⚙️ Business Systems
+Building modern corporate websites, landing pages and custom web applications.
 
-Management panels, dashboards, user systems and database-driven applications.
+</td>
+<td width="50%">
 
-### 🛒 E-Commerce
+### ⚙️ Backend Development
 
-Functional and user-focused e-commerce experiences.
+Database-driven systems, admin panels, authentication, CRUD operations and business logic.
 
-### 🔐 Backend Systems
+</td>
+</tr>
 
-Authentication, authorization, CRUD systems, APIs, file management and database architecture.
+<tr>
+<td width="50%">
 
-### 🎨 Digital Experiences
+### 🎨 UI / UX
 
-Responsive interfaces where **design, usability and functionality** work together.
+Responsive interfaces with a focus on clean design, usability and visual consistency.
+
+</td>
+<td width="50%">
+
+### 🚀 Digital Products
+
+Turning real-world ideas and business requirements into functional digital solutions.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `03` — MY STACK
+## 🛠️ Tech Stack
 
 ### Backend
 
 <p>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 ### Frontend
 
 <p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
-### Tools
+### Tools & Workflow
 
 <p>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
-### Exploring
+### Currently Exploring
 
-`TypeScript` · `React` · `REST APIs` · `Modern Frontend Architecture`
-
----
-
-## `04` — HOW I THINK
-
-I don't want to build software just because I can.
-
-I ask:
-
-> **Does it solve a problem?**
-> **Is it easy to use?**
-> **Can it grow?**
-> **Can I maintain it six months later?**
-
-For me, good software sits somewhere between:
-
-```text
-       DESIGN
-          ▲
-          │
-          │
-FUNCTION ◄┼► EXPERIENCE
-          │
-          │
-          ▼
-       QUALITY
-```
-
-**Technology is the tool.
-The product is the goal.**
+<p>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white" />
+</p>
 
 ---
 
-## `05` — CURRENTLY BUILDING
+## 🚀 Selected Work
+
+Some of the projects I've worked on include:
+
+| Project                    | Description                                          |
+| -------------------------- | ---------------------------------------------------- |
+| 🏥 **Klinik Onam**         | Digital consent and healthcare-oriented web solution |
+| 📊 **Mükellef Portal**     | Business/accounting workflow platform                |
+| 🔐 **Samsun E-İmza Ofisi** | E-signature and digital transformation platform      |
+| 💼 **Jetkolay**            | Corporate technology and business website            |
+| 🏗️ **Altera İnşaat**      | Corporate construction company website               |
+| 🤖 **Predicred AI**        | AI-focused digital project                           |
+| 🏢 **Busu Mühendislik**    | Corporate engineering website                        |
+
+More projects and case studies are available on my portfolio.
+
+<div align="center">
+
+<a href="https://efeberkayalan.com">
+<img src="https://img.shields.io/badge/EXPLORE%20MY%20PORTFOLIO-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=EfeBerk4y&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=C9D1D9" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfeBerk4y&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=EfeBerk4y&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7" />
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EfeBerk4y&bg_color=0D1117&color=C9D1D9&line=A855F7&point=FFFFFF&area=true&hide_border=true" width="100%" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+
+</div>
+
+---
+
+## 🎯 Currently Building
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │                                                              │
-│  █ Building real-world web applications                     │
-│  █ Improving backend & database architecture                 │
-│  █ Going deeper into modern JavaScript                       │
-│  █ Learning TypeScript & React                               │
-│  █ Building cleaner, reusable components                     │
-│  █ Turning ideas into products                               │
+│  ● Building real-world web applications                     │
+│  ● Improving backend & database architecture                 │
+│  ● Learning modern JavaScript                                │
+│  ● Exploring TypeScript & React                              │
+│  ● Improving Git & GitHub workflows                          │
+│  ● Creating cleaner and reusable components                  │
+│  ● Turning ideas into real digital products                  │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## `06` — SELECTED WORK
+## 💭 My Approach
 
-> Some of my work lives in private/client environments.
-> Public repositories will gradually be added here.
+> **Technology is the tool. The product is the goal.**
 
-### `EBA` — Personal Website
+When I start a project, I don't only ask:
 
-**efeberkayalan.com**
+**"Can I build this?"**
 
-My personal digital space and portfolio.
+I also ask:
 
-`Web Design` · `Development` · `Personal Brand`
+* Does it solve a real problem?
+* Is it easy to use?
+* Is it responsive?
+* Can it scale?
+* Can I maintain it later?
+* Does the final experience feel right?
 
----
+For me, good software sits somewhere between:
 
-### `Business Web Systems`
-
-Custom solutions built around real-world business workflows.
-
-`PHP` · `MySQL` · `JavaScript` · `Admin Panels`
-
----
-
-### `Experimental Projects`
-
-Small experiments, ideas and systems where I test new technologies and approaches.
-
-`JavaScript` · `APIs` · `Frontend` · `Backend`
+**Design × Functionality × Experience × Quality**
 
 ---
 
-## `07` — GITHUB
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=EfeBerk4y&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="170"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfeBerk4y&layout=compact&hide_border=true&theme=transparent" height="170"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=EfeBerk4y&hide_border=true&theme=transparent" />
-
-</div>
-
----
-
-## `08` — BEYOND CODE
-
-I believe development is only one part of building something.
+## 🌎 Beyond Code
 
 I'm also interested in:
 
-**UI/UX · Digital Products · Automation · Entrepreneurship · Branding · Technology**
+`UI/UX` · `Digital Products` · `SEO` · `Automation` · `Branding` · `Entrepreneurship` · `Technology`
 
-The goal isn't to become someone who knows every technology.
+I enjoy learning by building.
 
-The goal is to become someone who can **take a problem and build the right solution.**
+Every project is another opportunity to experiment, improve and create something better than the previous one.
 
 ---
 
 <div align="center">
 
-### `BUILD • BREAK • LEARN • EVOLVE`
+### BUILD • BREAK • LEARN • EVOLVE
 
 <br>
 
-**Have an idea? Let's build it.**
-
-<a href="https://efeberkayalan.com">efeberkayalan.com</a>
-
-<br><br>
-
-<sub>© Efe Berkay Alan</sub>
+<a href="https://efeberkayalan.com">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&customColorList=12,14,18" width="100%" />
+</a>
 
 </div>
