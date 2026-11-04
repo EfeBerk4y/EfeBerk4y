@@ -27,12 +27,6 @@
 
 <img src="assets/reviews.svg" width="100%" alt="Client reviews from Feyzanur Serttaş and Ali Yılmaz.">
 
-<img src="assets/activity-head.svg" width="100%" alt="Activity">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/activity.svg" width="100%" alt="Contribution activity over the last 12 months">
 
 <a href="mailto:info@efeberkayalan.com"><img src="assets/footer.svg" width="100%" alt="Let's build something good. Birlikte iyi bir şey yapalım."></a>
