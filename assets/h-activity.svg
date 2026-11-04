@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img">
+<style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}.mono{font-family:ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace}
+</style>
+
+<text x="0" y="40" class="sans"><tspan class="mono" font-size="16" fill="#00B3B3">04</tspan><tspan dx="16" font-size="30" font-weight="700" fill="#F2F7F7">Activity</tspan><tspan dx="12" font-size="20" fill="#5F7B81">/  Katkılar</tspan></text>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#1B2F34" stroke-width="1.5"/>
+<line x1="0" y1="60" x2="72" y2="60" stroke="#00B3B3" stroke-width="3"/>
+</svg>

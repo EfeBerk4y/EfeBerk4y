@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img">
+<style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}.mono{font-family:ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace}
+.w{fill:none;stroke:#00B3B3;stroke-width:2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:0;animation:draw 1.8s ease-out backwards}
+.eye{fill:#3FE0E0;animation:fade .6s 1.8s backwards, glow 3s 2.4s ease-in-out infinite}
+.nose{fill:#00B3B3;animation:fade .6s 1.4s backwards}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes fade{from{opacity:0}}
+@keyframes glow{0%,100%{opacity:1}50%{opacity:.35}}
+.star{fill:#F2F7F7;opacity:.15;animation:tw 4s ease-in-out infinite}@keyframes tw{50%{opacity:.7}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060D0F"/><stop offset="1" stop-color="#0C1A1E"/></linearGradient>
+  <radialGradient id="moon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#00B3B3" stop-opacity=".22"/><stop offset=".6" stop-color="#00B3B3" stop-opacity=".06"/><stop offset="1" stop-color="#00B3B3" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#F2F7F7" opacity=".05"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="240" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <circle class="star" cx="397" cy="52" r="1.7" style="animation-delay:2.6s;animation-duration:3.5s"/><circle class="star" cx="304" cy="231" r="1.1" style="animation-delay:1.9s;animation-duration:3.5s"/><circle class="star" cx="1140" cy="173" r="1" style="animation-delay:2.8s;animation-duration:4.5s"/><circle class="star" cx="20" cy="216" r="1.5" style="animation-delay:0.6s;animation-duration:5.5s"/><circle class="star" cx="282" cy="77" r="1.6" style="animation-delay:3.2s;animation-duration:4.5s"/><circle class="star" cx="417" cy="76" r="1.5" style="animation-delay:2.9s;animation-duration:2.4s"/><circle class="star" cx="607" cy="126" r="0.9" style="animation-delay:0.1s;animation-duration:4.3s"/><circle class="star" cx="457" cy="75" r="0.6" style="animation-delay:0.7s;animation-duration:3.8s"/><circle class="star" cx="1124" cy="219" r="1.3" style="animation-delay:0.7s;animation-duration:2.7s"/><circle class="star" cx="1058" cy="42" r="1.4" style="animation-delay:1.3s;animation-duration:4.3s"/><circle class="star" cx="929" cy="7" r="0.7" style="animation-delay:2.7s;animation-duration:5.8s"/><circle class="star" cx="963" cy="141" r="1.7" style="animation-delay:0.5s;animation-duration:5.8s"/><circle class="star" cx="273" cy="224" r="1.7" style="animation-delay:0.6s;animation-duration:5.8s"/><circle class="star" cx="599" cy="131" r="0.7" style="animation-delay:1.6s;animation-duration:2.7s"/><circle class="star" cx="31" cy="103" r="1.8" style="animation-delay:2.6s;animation-duration:4s"/><circle class="star" cx="752" cy="212" r="0.9" style="animation-delay:2.4s;animation-duration:5.3s"/><circle class="star" cx="765" cy="228" r="0.7" style="animation-delay:1.8s;animation-duration:3s"/><circle class="star" cx="830" cy="124" r="1.4" style="animation-delay:3.3s;animation-duration:5.6s"/><circle class="star" cx="195" cy="26" r="1.3" style="animation-delay:2.9s;animation-duration:2.9s"/><circle class="star" cx="329" cy="77" r="0.8" style="animation-delay:3.4s;animation-duration:3s"/><circle class="star" cx="1060" cy="224" r="0.9" style="animation-delay:3s;animation-duration:3s"/><circle class="star" cx="1101" cy="166" r="0.8" style="animation-delay:2.5s;animation-duration:3.1s"/>
+  <circle cx="600" cy="92" r="110" fill="url(#moon)"/>
+  <g transform="translate(600,92) scale(.42)"><g id="f">
+  <polyline class="w" pathLength="1" points="0,-88 -46,-76 -98,-152 -122,-40 -142,22 -106,82 -56,112 0,152"/>
+  <polyline class="w" pathLength="1" points="-98,-152 -78,-62 -112,-46"/>
+  <polyline class="w" pathLength="1" points="-46,-76 -58,-12 -142,22"/>
+  <polyline class="w" pathLength="1" points="-58,-12 -18,6 -16,86 -106,82"/>
+  <polyline class="w" pathLength="1" points="-16,86 -56,112"/>
+  <polyline class="w" pathLength="1" points="0,-88 -18,6"/>
+  <polyline class="w" pathLength="1" points="-122,-40 -58,-12"/>
+  <polyline class="w" pathLength="1" points="-16,86 0,100"/>
+  <polygon class="eye" points="-54,-8 -24,2 -46,8"/></g>
+<use href="#f" transform="scale(-1,1)"/>
+<polygon class="nose" points="-14,84 14,84 0,100"/></g>
+</g>
+<rect x=".5" y=".5" width="1199" height="239" rx="18" fill="none" stroke="#1B2F34"/>
+<text x="600" y="190" text-anchor="middle" class="mono" font-size="16" fill="#A9BDC1" letter-spacing="6">BUILD · BREAK · LEARN · EVOLVE</text>
+<text x="600" y="216" text-anchor="middle" class="sans" font-size="13" fill="#5F7B81">Thanks for stopping by · Uğradığın için teşekkürler</text>
+</svg>
