@@ -23,22 +23,8 @@ $weeks = $cal['weeks'];
 $days = [];
 foreach ($weeks as $w) foreach ($w['contributionDays'] as $d) $days[] = $d;
 
-// Seriler ve en yoğun gün
-$longest = $run = 0; $best = ['contributionCount' => 0, 'date' => ''];
-foreach ($days as $d) {
-  $run = $d['contributionCount'] > 0 ? $run + 1 : 0;
-  $longest = max($longest, $run);
-  if ($d['contributionCount'] > $best['contributionCount']) $best = $d;
-}
-$current = 0;
-for ($i = count($days) - 1; $i >= 0; $i--) {
-  if ($days[$i]['contributionCount'] > 0) $current++;
-  elseif ($i < count($days) - 1 || $current > 0) break; // bugün henüz katkı yoksa dünden say
-}
-$activeDays = count(array_filter($days, fn($d) => $d['contributionCount'] > 0));
-
 // Renk seviyesi: en yoğun güne göre dört basamak
-$max = max(1, $best['contributionCount']);
+$max = max(1, ...array_map(fn($d) => $d['contributionCount'], $days));
 $level = function ($n) use ($max) {
   if ($n === 0) return 0;
   return min(4, 1 + (int) floor(($n / $max) * 3.999));
@@ -47,7 +33,7 @@ $level = function ($n) use ($max) {
 function esc($s) { return htmlspecialchars($s, ENT_XML1 | ENT_QUOTES, 'UTF-8'); }
 $months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-$W = 1200; $H = 420; $gx = 92; $gy = 138; $p = 19.6; $c = 15;
+$W = 1200; $H = 336; $gx = 92; $gy = 138; $p = 19.6; $c = 15;
 $o = "<defs><linearGradient id=\"split\" gradientUnits=\"userSpaceOnUse\" x1=\"0\" y1=\"0\" x2=\"$W\" y2=\"0\"><stop offset=\"0\" stop-color=\"" . BLUE . "\"/><stop offset=\".5\" stop-color=\"#8a5cff\" stop-opacity=\".55\"/><stop offset=\"1\" stop-color=\"" . RED . "\"/></linearGradient>" .
   "<clipPath id=\"pc\"><rect width=\"$W\" height=\"$H\" rx=\"20\"/></clipPath></defs>" .
   "<rect x=\".5\" y=\".5\" width=\"" . ($W - 1) . "\" height=\"" . ($H - 1) . "\" rx=\"20\" fill=\"" . PANEL . "\" stroke=\"" . LINE . "\"/>" .
@@ -84,26 +70,7 @@ $o .= "<text x=\"" . ($lx - 8) . "\" y=\"301\" text-anchor=\"end\" class=\"m\" f
 foreach (LEVELS as $i => $col) $o .= "<rect x=\"" . ($lx + $i * 19) . "\" y=\"290\" width=\"14\" height=\"14\" rx=\"3\" fill=\"$col\"/>";
 $o .= "<text x=\"" . ($lx + 5 * 19 + 4) . "\" y=\"301\" class=\"m\" font-size=\"10.5\" fill=\"" . TEXT3 . "\">More</text>";
 
-// Rakamlar
-$bestDate = $best['date'] ? strtoupper(gmdate('j M Y', strtotime($best['date']))) : '—';
-$stats = [
-  [number_format($cal['totalContributions']), 'CONTRIBUTIONS', 'katkı'],
-  [(string) $activeDays, 'ACTIVE DAYS', 'aktif gün'],
-  [$longest . 'd', 'LONGEST STREAK', 'en uzun seri'],
-  [$current . 'd', 'CURRENT STREAK', 'güncel seri'],
-];
-$o .= "<line x1=\"48\" y1=\"324\" x2=\"1152\" y2=\"324\" stroke=\"" . LINE . "\"/>";
-foreach ($stats as $i => [$n, $en, $tr]) {
-  $x = 48 + $i * 280;
-  if ($i) $o .= "<line x1=\"" . ($x - 24) . "\" y1=\"344\" x2=\"" . ($x - 24) . "\" y2=\"388\" stroke=\"" . LINE . "\"/>";
-  $nx = $x + 22 + mb_strlen($n) * 22;
-  $o .= "<text x=\"$x\" y=\"380\" class=\"g7\" font-size=\"40\" letter-spacing=\"-1\" fill=\"" . TEXT . "\">" . esc($n) . "</text>" .
-    "<text x=\"$nx\" y=\"360\" class=\"m\" font-size=\"11\" letter-spacing=\"1.2\" fill=\"" . TEXT2 . "\">$en</text>" .
-    "<text x=\"$nx\" y=\"380\" class=\"ii\" font-size=\"12.5\" fill=\"" . TEXT3 . "\">$tr</text>";
-}
-$o .= "<text x=\"48\" y=\"301\" class=\"m\" font-size=\"10.5\" fill=\"" . TEXT3 . "\">BUSIEST DAY · " . esc($bestDate) . " · " . $best['contributionCount'] . "</text>";
-
 $css = file_get_contents(__DIR__ . '/fonts.css');
 @mkdir(dirname($outFile), 0777, true);
 file_put_contents($outFile, "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"$W\" height=\"$H\" viewBox=\"0 0 $W $H\" role=\"img\"><style>$css</style>$o</svg>\n");
-echo "OK: {$cal['totalContributions']} katkı, en uzun seri $longest, güncel seri $current\n";
+echo "OK: {$cal['totalContributions']} katkı\n";
