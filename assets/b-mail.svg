@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img">
+<style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}.mono{font-family:ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace}
+</style>
+
+<rect x=".75" y=".75" width="258.5" height="62.5" rx="14" fill="#0B1518" stroke="#00B3B3" stroke-opacity=".55" stroke-width="1.5"/>
+<text x="24" y="28" class="mono" font-size="12" fill="#00B3B3" letter-spacing="2">EMAIL</text>
+<text x="24" y="48" class="sans" font-size="16" fill="#F2F7F7">info@efeberkayalan.com</text>
+<text x="238" y="40" text-anchor="end" class="mono" font-size="18" fill="#00B3B3">→</text>
+</svg>
