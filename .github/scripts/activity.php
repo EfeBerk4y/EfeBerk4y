@@ -52,7 +52,7 @@ $o = "<defs><linearGradient id=\"split\" gradientUnits=\"userSpaceOnUse\" x1=\"0
   "<clipPath id=\"pc\"><rect width=\"$W\" height=\"$H\" rx=\"20\"/></clipPath></defs>" .
   "<rect x=\".5\" y=\".5\" width=\"" . ($W - 1) . "\" height=\"" . ($H - 1) . "\" rx=\"20\" fill=\"" . PANEL . "\" stroke=\"" . LINE . "\"/>" .
   "<rect width=\"$W\" height=\"2\" fill=\"url(#split)\" clip-path=\"url(#pc)\"/>" .
-  "<text x=\"48\" y=\"62\" class=\"m6\" font-size=\"13\" letter-spacing=\"1\"><tspan fill=\"" . BLUE . "\">[</tspan><tspan fill=\"" . TEXT . "\">06</tspan><tspan fill=\"" . RED . "\">]</tspan></text>" .
+  "<text x=\"48\" y=\"62\" class=\"m6\" font-size=\"13\" letter-spacing=\"1\"><tspan fill=\"" . BLUE . "\">[</tspan><tspan fill=\"" . TEXT . "\">05</tspan><tspan fill=\"" . RED . "\">]</tspan></text>" .
   "<text x=\"96\" y=\"63\" class=\"g7\" font-size=\"30\" letter-spacing=\"-.6\" fill=\"" . TEXT . "\">Activity<tspan class=\"ii\" font-size=\"16\" letter-spacing=\"0\" dx=\"14\" fill=\"" . TEXT3 . "\">Katkılar</tspan></text>" .
   "<text x=\"1152\" y=\"62\" text-anchor=\"end\" class=\"m\" font-size=\"12\" letter-spacing=\"1\" fill=\"" . TEXT3 . "\">LAST 12 MONTHS · UPDATED " . strtoupper(gmdate('j M Y')) . "</text>" .
   "<line x1=\"48\" y1=\"88\" x2=\"1152\" y2=\"88\" stroke=\"" . LINE . "\"/>";

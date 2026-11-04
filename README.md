@@ -25,8 +25,6 @@
 
 <img src="assets/services.svg" width="100%" alt="What I do: websites and web apps, mobile apps, SEO, graphic design.">
 
-<img src="assets/reviews.svg" width="100%" alt="Client reviews from Feyzanur Serttaş and Ali Yılmaz.">
-
 <img src="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/activity.svg" width="100%" alt="Contribution activity over the last 12 months">
 
 <a href="mailto:info@efeberkayalan.com"><img src="assets/footer.svg" width="100%" alt="Let's build something good. Birlikte iyi bir şey yapalım."></a>
