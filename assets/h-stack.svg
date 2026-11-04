@@ -3,7 +3,7 @@
 .sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}.mono{font-family:ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace}
 </style>
 
-<text x="0" y="40" class="sans"><tspan class="mono" font-size="16" fill="#00B3B3">02</tspan><tspan dx="16" font-size="30" font-weight="700" fill="#F2F7F7">Stack</tspan><tspan dx="12" font-size="20" fill="#5F7B81">/  Teknolojiler</tspan></text>
-<line x1="0" y1="60" x2="1200" y2="60" stroke="#1B2F34" stroke-width="1.5"/>
-<line x1="0" y1="60" x2="72" y2="60" stroke="#00B3B3" stroke-width="3"/>
+<text x="0" y="40" class="sans"><tspan class="mono" font-size="16" fill="#E11D2A">02</tspan><tspan dx="16" font-size="30" font-weight="700" fill="#F5F1F1">Stack</tspan><tspan dx="12" font-size="20" fill="#7A6B6D">/  Teknolojiler</tspan></text>
+<line x1="0" y1="60" x2="1200" y2="60" stroke="#2A1A1C" stroke-width="1.5"/>
+<line x1="0" y1="60" x2="72" y2="60" stroke="#E11D2A" stroke-width="3"/>
 </svg>

@@ -23,8 +23,8 @@ jobs:
         with:
           github_user_name: EfeBerk4y
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2300B3B3&color_dots=%230E4429,%23006666,%23009999,%2300CCCC,%2366FFFF
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300E5E5
+            dist/github-contribution-grid-snake.svg?color_snake=%23E11D2A&color_dots=%23EBE6E6,%23F4A3A3,%238A141C,%23C3121E,%23FF4A4A
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23E11D2A&color_dots=%23161011,%234C0E13,%238A141C,%23C3121E,%23FF4A4A
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v5
