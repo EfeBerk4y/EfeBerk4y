@@ -1,11 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="260" height="64" viewBox="0 0 260 64" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="60" viewBox="0 0 160 60" role="img">
 <style>
-.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}.mono{font-family:ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace}
-@keyframes fade{from{opacity:0}}@keyframes up{from{opacity:0;transform:translateY(8px)}}
+@font-face{font-family:'f-s6';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,d09GMgABAAAAAASUABAAAAAACSQAAAQ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgUgcgUoGYD9TVEFURABkEQgKhByDMQsaAAE2AiQDMAQgBYRMByAMBxuLB8gEHug9+z8zmTS9nXYvH5wLusRSWaZ4tr5k5eePmS4KpLlxoFPa3t46/9oiG3A6oGFcFl0D4IH4LeJZTFKmoxYBBBFMkg0JTD5kMYaH8qcDTGMJMhxN11Pn9uxVwW5UQ/0Po2LU2aOCP9TaigqJH0Ek6VYXai/a8WGieb1vcdL71vtYd3y7KjoWk8fVQanJ4LIGBipt8/u4FpNJcQ9clxuYzb8Ec3NrxGbL1mK9zZrU5labJfWb623m1BdT2DZlhzblMw2mdAgA9GCocbXpVvtcVrn0JfR59Bk2Gx7AdIMucZ0meEfQxDzAaPHtBLiMkhfIZiI0gvJFa6u/R1xFVgxhymWcHzbZk+knwomtOR7DpqJu+/9VFFa3iXLamUnZbMyhFhskvDQCk1zKtNS+g0N7LaNseK8eV1gCmYRqRaTwD6tfdx6hZPMTgquA/gg7tK7OA+MYV3a7TYI0DsOMUgEMc6z+N7yvvfu8e7xLvYu8i70LRx43qgXC8xhL8OHatg9NRxPqXZad58SV6J4IXJP+yv4cQinlmxjawVKhbYMNVsjXG7KC2tI+bWkVoueE118Xh7/xhj6xQRvaFxCBVxtPfEOIw18PnPAqh71W53ztNfxC8LXX9Ikv7KYve/XV1tAV+me1qZW2tNRNur4l0JpHmxp9Z9uIDBhj/Ody9ISXxeGv6BNf4rAXR+98/8/3r4+1Z9tx5pw1h745Z19z0FHM1Mladv1J7R3rT6plkvsv7lWx0+Mnt6qlTvGwTdFCZFMkWti0JdNbX5/pJa/rj0gnT+ruip9waKqU3T8cO7Jj+SVWIltct+CZq896JNlaWfjy/sFydNOyZfHNFJtPbyYfP/1N9d4XN3/9i9d34wO+118k33xymzqtfdn6Lb0bV1YTI6dnw1vT69aG0+Esc8+fytSpTHWzyBn4XuRW7VVS2o+dGo1/b2zxkd7M6pe+u7Nr7Lrf/Ia6jYg+7n/9t1c+2eEdy9vu/6vMs9SecOt19wvvbI/5tLfdfx+bZ/UYNeANvN8VXTjyDPrkfSyUJ7BQLCMqllH0b5Gnk5ePkBc2tb351cumsQh/LcYMTIeDnHN7XWoMH71I7BhLBLP4WSKp41OJwTquW1X1EpMdOUXiYwZD4jpWsMQs5rHNIBLFOLaVWAQJmPzcc1CkSpkeKiTYi7vOZZg+SjiUcfcWqrj00/SysoMMsZfdvhc19mQNC7n2KjUcKgzQaIW9ekMuvScOC3D5HgwSZW9MrRCX0lzb92T+HNTG0B7sSWCcapvFLGCRORIqryVMgq3kFjAitXh4kL1x6WGP9g6bV21btu4qvj977Pp5myUsYglLsalnCIdMGCmUZw+cHcGhry3ZzN5gwf5h/M2zgCODDNdW700vC+i7CLKQMHzZKnuxP7DrC+ewzP7iacSd3nFk/4CV9wnv6NvUyQA=) format('woff2')}.s6{font-family:'f-s6','Segoe UI', Arial, sans-serif;font-weight:600;font-style:normal}
 </style>
-
-<rect x=".75" y=".75" width="258.5" height="62.5" rx="12" fill="#111111" stroke="#242424" stroke-width="1.5"/>
-<text x="22" y="27" class="mono" font-size="11" fill="#E11D2A" letter-spacing="2">LINKEDIN</text>
-<text x="22" y="47" class="sans" font-size="16" fill="#F5F5F5">in/efeberkayalan</text>
-<text x="238" y="40" text-anchor="end" class="sans" font-size="18" fill="#E11D2A">↗</text>
+<rect x=".75" y=".75" width="158.5" height="58.5" rx="29.25" fill="#faf9f6" stroke="#cbc8c0" stroke-width="1.5"/><text x="28" y="36" class="s6" font-size="17" fill="#121211">LinkedIn</text><path d="M116 30h14M124 23l7 7-7 7" fill="none" stroke="#121211" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

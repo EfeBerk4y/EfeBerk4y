@@ -1,47 +1,33 @@
-<div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Efe Berkay Alan — Building the web, one product at a time.">
-</div>
+<a href="https://efeberkayalan.com"><img src="assets/hero.svg" width="100%" alt="Efe Berkay Alan — Software developer, Samsun. I turn ideas into websites and apps that people actually use. Börü, the wolf, on watch."></a>
 
 <p align="center">
-  <a href="https://efeberkayalan.com"><img src="assets/b-web.svg" height="56" alt="Website: efeberkayalan.com"></a>
-  <a href="https://www.linkedin.com/in/efeberkayalan/"><img src="assets/b-linkedin.svg" height="56" alt="LinkedIn"></a>
-  <a href="mailto:info@efeberkayalan.com"><img src="assets/b-mail.svg" height="56" alt="Email: info@efeberkayalan.com"></a>
+  <a href="https://efeberkayalan.com"><img src="assets/b-web.svg" height="52" alt="efeberkayalan.com"></a>
+  <a href="https://www.linkedin.com/in/efeberkayalan/"><img src="assets/b-linkedin.svg" height="52" alt="LinkedIn"></a>
+  <a href="mailto:info@efeberkayalan.com"><img src="assets/b-mail.svg" height="52" alt="info@efeberkayalan.com"></a>
 </p>
 
-<br>
+<img src="assets/about.svg" width="100%" alt="Hi, I'm Efe. Software developer based in Samsun, building software at Jetkolay Bilişim and studying at Atatürk University. 3 years of experience, 14 live projects, 10+ sectors.">
 
-<img src="assets/h-about.svg" width="100%" alt="01 About / Hakkımda">
+<img src="assets/experience.svg" width="100%" alt="Experience: Jetkolay Bilişim (2024 — now), Atatürk University (2024 — ongoing), Teknovasya Yazılım (Jun — Oct 2024), Kayrasoft Yazılım (2023).">
 
-<img src="assets/about.svg" width="100%" alt="I build websites and web applications, from the first idea to the live product. / Fikirden canlı ürüne kadar web siteleri ve web uygulamaları geliştiriyorum.">
-
-<br>
-
-<img src="assets/h-experience.svg" width="100%" alt="02 Experience / Deneyim">
-
-<img src="assets/experience.svg" width="100%" alt="2024–now: Software Developer & Technical Support Specialist, Jetkolay. 2024: Software Developer, Teknovasya. 2023: Web Designer, Kayrasoft. 2024–now: Atatürk University.">
-
-<br>
-
-<img src="assets/h-stack.svg" width="100%" alt="03 Stack / Teknolojiler">
-
-<img src="assets/stack.svg" width="100%" alt="PHP, JavaScript, HTML, CSS, MySQL, Firebase, Google Cloud, Git, GitHub, SEO">
-
-<br>
-
-<img src="assets/h-work.svg" width="100%" alt="04 Selected work / Projeler">
+<img src="assets/work-head.svg" width="100%" alt="Selected work, live.">
 
 <p align="center">
-  <a href="https://mukellefportal.com"><img src="assets/p-mukellefportal.svg" width="49%" alt="Mükellef Portal"></a>
-  <a href="https://klinikonam.com"><img src="assets/p-klinikonam.svg" width="49%" alt="Klinik Onam"></a>
-  <a href="https://samsuneimzaofisi.com"><img src="assets/p-eimza.svg" width="49%" alt="Samsun E-İmza Ofisi"></a>
-  <a href="https://jetkolay.com"><img src="assets/p-jetkolay.svg" width="49%" alt="Jetkolay Bilişim"></a>
-  <a href="https://busumuhendislik.com"><img src="assets/p-busu.svg" width="49%" alt="Busu Mühendislik"></a>
-  <a href="https://efeberkayalan.com"><img src="assets/p-portfolio.svg" width="49%" alt="More on efeberkayalan.com"></a>
+  <a href="https://klinikonam.com"><img src="assets/p-klinikonam.svg" width="49%" alt="Klinik Onam — klinikonam.com"></a>
+  <a href="https://mukellefportal.com"><img src="assets/p-mukellefportal.svg" width="49%" alt="Mükellef Portal — mukellefportal.com"></a>
+  <a href="https://samsuneimzaofisi.com"><img src="assets/p-eimza.svg" width="49%" alt="Samsun E-İmza Ofisi — samsuneimzaofisi.com"></a>
+  <a href="https://jetkolay.com"><img src="assets/p-jetkolay.svg" width="49%" alt="Jetkolay Bilişim — jetkolay.com"></a>
+  <a href="https://busumuhendislik.com"><img src="assets/p-busu.svg" width="49%" alt="Busu Mühendislik — busumuhendislik.com"></a>
+  <a href="https://www.hizirgundogdu.com.tr"><img src="assets/p-hizir.svg" width="49%" alt="Hızır Gündoğdu — hizirgundogdu.com.tr"></a>
+  <a href="https://mazotcum.com.tr"><img src="assets/p-mazotcum.svg" width="49%" alt="Mazotcum — mazotcum.com.tr"></a>
+  <a href="https://efeberkayalan.com"><img src="assets/p-more.svg" width="49%" alt="More work on efeberkayalan.com"></a>
 </p>
 
-<br>
+<img src="assets/services.svg" width="100%" alt="What I do: websites and web apps, mobile apps, SEO, graphic design.">
 
-<img src="assets/h-activity.svg" width="100%" alt="05 Activity / Katkılar">
+<img src="assets/reviews.svg" width="100%" alt="Clients approved: reviews from Feyzanur Serttaş and Ali Yılmaz.">
+
+<img src="assets/activity-head.svg" width="100%" alt="Shipping, one commit at a time.">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg">
@@ -49,6 +35,4 @@
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
-<br><br>
-
-<img src="assets/footer.svg" width="100%" alt="Efe Berkay Alan · Build · Break · Learn · Evolve">
+<a href="mailto:info@efeberkayalan.com"><img src="assets/footer.svg" width="100%" alt="Let's build something good. Birlikte iyi bir şey yapalım."></a>
