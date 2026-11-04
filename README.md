@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" alt="Efe Berkay Alan — Software Developer">
+  <img src="assets/banner.svg" width="100%" alt="Efe Berkay Alan — Building the web, one product at a time.">
 </div>
 
 <p align="center">
@@ -12,17 +12,23 @@
 
 <img src="assets/h-about.svg" width="100%" alt="01 About / Hakkımda">
 
-<img src="assets/about.svg" width="100%" alt="I build websites and web applications, from the first idea to the live product. Software Developer and Technical Support Specialist at Jetkolay. / Fikirden canlı ürüne kadar web siteleri ve web uygulamaları geliştiriyorum. Jetkolay'de Yazılım Geliştirici ve Teknik Destek Uzmanıyım.">
+<img src="assets/about.svg" width="100%" alt="I build websites and web applications, from the first idea to the live product. / Fikirden canlı ürüne kadar web siteleri ve web uygulamaları geliştiriyorum.">
 
 <br>
 
-<img src="assets/h-stack.svg" width="100%" alt="02 Stack / Teknolojiler">
+<img src="assets/h-experience.svg" width="100%" alt="02 Experience / Deneyim">
+
+<img src="assets/experience.svg" width="100%" alt="2024–now: Software Developer & Technical Support Specialist, Jetkolay. 2024: Software Developer, Teknovasya. 2023: Web Designer, Kayrasoft. 2024–now: Atatürk University.">
+
+<br>
+
+<img src="assets/h-stack.svg" width="100%" alt="03 Stack / Teknolojiler">
 
 <img src="assets/stack.svg" width="100%" alt="PHP, JavaScript, HTML, CSS, MySQL, Firebase, Google Cloud, Git, GitHub, SEO">
 
 <br>
 
-<img src="assets/h-work.svg" width="100%" alt="03 Work / Projeler">
+<img src="assets/h-work.svg" width="100%" alt="04 Selected work / Projeler">
 
 <p align="center">
   <a href="https://mukellefportal.com"><img src="assets/p-mukellefportal.svg" width="49%" alt="Mükellef Portal"></a>
@@ -30,12 +36,12 @@
   <a href="https://samsuneimzaofisi.com"><img src="assets/p-eimza.svg" width="49%" alt="Samsun E-İmza Ofisi"></a>
   <a href="https://jetkolay.com"><img src="assets/p-jetkolay.svg" width="49%" alt="Jetkolay Bilişim"></a>
   <a href="https://busumuhendislik.com"><img src="assets/p-busu.svg" width="49%" alt="Busu Mühendislik"></a>
-  <a href="https://efeberkayalan.com"><img src="assets/p-portfolio.svg" width="49%" alt="efeberkayalan.com"></a>
+  <a href="https://efeberkayalan.com"><img src="assets/p-portfolio.svg" width="49%" alt="More on efeberkayalan.com"></a>
 </p>
 
 <br>
 
-<img src="assets/h-activity.svg" width="100%" alt="04 Activity / Katkılar">
+<img src="assets/h-activity.svg" width="100%" alt="05 Activity / Katkılar">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg">
@@ -45,4 +51,4 @@
 
 <br><br>
 
-<img src="assets/footer.svg" width="100%" alt="Build · Break · Learn · Evolve">
+<img src="assets/footer.svg" width="100%" alt="Efe Berkay Alan · Build · Break · Learn · Evolve">
