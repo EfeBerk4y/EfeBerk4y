@@ -1,16 +1,16 @@
-<a href="https://efeberkayalan.com"><img src="assets/hero.svg" width="100%" alt="Efe Berkay Alan — Software developer, Samsun. I turn ideas into websites and apps that people actually use. Börü, the wolf, on watch."></a>
+<a href="https://efeberkayalan.com"><img src="assets/hero.svg" width="100%" alt="Efe Berkay Alan — Software developer, Samsun. Börü, the wolf, on watch."></a>
 
 <p align="center">
-  <a href="https://efeberkayalan.com"><img src="assets/b-web.svg" height="52" alt="efeberkayalan.com"></a>
-  <a href="https://www.linkedin.com/in/efeberkayalan/"><img src="assets/b-linkedin.svg" height="52" alt="LinkedIn"></a>
-  <a href="mailto:info@efeberkayalan.com"><img src="assets/b-mail.svg" height="52" alt="info@efeberkayalan.com"></a>
+  <a href="https://efeberkayalan.com"><img src="assets/b-web.svg" height="56" alt="efeberkayalan.com"></a>
+  <a href="https://www.linkedin.com/in/efeberkayalan/"><img src="assets/b-linkedin.svg" height="56" alt="LinkedIn"></a>
+  <a href="mailto:info@efeberkayalan.com"><img src="assets/b-mail.svg" height="56" alt="info@efeberkayalan.com"></a>
 </p>
 
-<img src="assets/about.svg" width="100%" alt="Hi, I'm Efe. Software developer based in Samsun, building software at Jetkolay Bilişim and studying at Atatürk University. 3 years of experience, 14 live projects, 10+ sectors.">
+<img src="assets/about.svg" width="100%" alt="About: software developer in Samsun, at Jetkolay Bilişim, studying at Atatürk University. 3 years, 14 live projects, 10+ sectors, building since 2023.">
 
 <img src="assets/experience.svg" width="100%" alt="Experience: Jetkolay Bilişim (2024 — now), Atatürk University (2024 — ongoing), Teknovasya Yazılım (Jun — Oct 2024), Kayrasoft Yazılım (2023).">
 
-<img src="assets/work-head.svg" width="100%" alt="Selected work, live.">
+<img src="assets/work-head.svg" width="100%" alt="Live work">
 
 <p align="center">
   <a href="https://klinikonam.com"><img src="assets/p-klinikonam.svg" width="49%" alt="Klinik Onam — klinikonam.com"></a>
@@ -25,9 +25,9 @@
 
 <img src="assets/services.svg" width="100%" alt="What I do: websites and web apps, mobile apps, SEO, graphic design.">
 
-<img src="assets/reviews.svg" width="100%" alt="Clients approved: reviews from Feyzanur Serttaş and Ali Yılmaz.">
+<img src="assets/reviews.svg" width="100%" alt="Client reviews from Feyzanur Serttaş and Ali Yılmaz.">
 
-<img src="assets/activity-head.svg" width="100%" alt="Shipping, one commit at a time.">
+<img src="assets/activity-head.svg" width="100%" alt="Activity">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EfeBerk4y/EfeBerk4y/output/github-contribution-grid-snake-dark.svg">
